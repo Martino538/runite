@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <script src="/assets/js/script.js"></script>
+    <title>Runite PS | Play The Ultimate RSPS Today</title>
+  </head>
+  <body>
+    <header>
+        <div class="nav-wrapper">
+            <nav>
+                <section class="mobile-menu">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="./assets/img/logo.png" alt="Logo of Runite">
+                        </div>
+                        <div class="hamburger">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-links">
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/highscores.html">Highscores</a></li>
+                            <li><a href="/events.html">Events</a></li>
+                            <li><a href="/vote.html">Vote</a></li>
+                            <li><a href="https://app.gpay.io/store/runite" target="_blank">Store</a></li>
+                            <li><a href="https://discord.com/invite/KkSpYSnHHy" target="_blank">Discord</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="desktop-menu">
+                    <svg id="nav-tiles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1012.9 163.2">
+                    <defs>
+                        <pattern id="tile-bg" patternUnits="userSpaceOnUse" width="1012.9" height="163.2">
+                        <image href="/assets/img/texture.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        </pattern>
+                    </defs>
+
+                    <a href="/index.html">
+                        <g class="tile">
+                        <polygon fill="url(#tile-bg)" points="0 .2 0 12.2 89.9 85.1 155.5 85.1 153.5 .2 0 .2" />
+                        <text x="105" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Home</text>
+                        </g>
+                    </a>
+
+                    <a href="/highscores.html">
+                        <g class="tile">
+                        <rect fill="url(#tile-bg)" x="153.5" y=".2" width="129" height="84.9" />
+                        <text x="218" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Highscores</text>
+                        </g>
+                    </a>
+
+                    <a href="/events.html">
+                        <g class="tile">
+                        <rect fill="url(#tile-bg)" x="281.5" y=".2" width="87" height="84.9" />
+                        <text x="325" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Events</text>
+                        </g>
+                    </a>
+
+                    <polygon fill="url(#tile-bg)" points="367.9 85.1 501.9 162.2 635.9 84.2 635.9 .2 505.9 78.1 367.9 .2 367.9 85.1" />
+
+                    <a href="/vote.html">
+                        <g class="tile">
+                        <rect fill="url(#tile-bg)" x="635.9" y=".2" width="108" height="84" />
+                        <text x="690" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Vote</text>
+                        </g>
+                    </a>
+
+                    <a href="https://app.gpay.io/store/runite" target="_blank">
+                        <g class="tile">
+                        <rect fill="url(#tile-bg)" x="743.2" y=".2" width="102" height="84" />
+                        <text x="795" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Store</text>
+                        </g>
+                    </a>
+
+                    <a href="https://discord.com/invite/KkSpYSnHHy" target="_blank">
+                        <g class="tile">
+                        <polyline fill="url(#tile-bg)" points="843.9 .2 1012.9 .2 1012.9 11.2 938.8 85.2 843.9 84.2 843.9 .2" />
+                        <text x="900" y="42" text-anchor="middle" dominant-baseline="middle" fill="#7f8593">Discord</text>
+                        </g>
+                    </a>
+                    </svg>
+                    <div class="image-wrapper">
+                        <a href="/index.html">
+                            <img src="/assets/img/logo.webp" alt="Runite logo" />
+                        </a>
+                    </div>
+                </section>
+            </nav>
+        </div>
+        <a href="#" class="play-btn-wrapper">
+            <img class="play-btn" src="/assets/img/play-btn-animated.gif" alt="Play Button"/>
+            <img class="play-btn-hover" src="/assets/img/play-btn-hover.png" alt="Play Button hover state"/>
+        </a>
+        <div id="particles-js"></div>
+    </header>
+    <main class="side-shadows">
+        <div class="content-container">
+            <section id="welcome-post">
+                <div class="container">
+                    <div class="content">
+                        <h1>Welcome to Runite!</h1>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                            ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. </br></br>Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur. </br></br>Sit aspernatur
+                            aut odit fugit!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="main-buttons">
+                <div class="container-fluid">
+                    <div class="content">
+                        <div class="button-wrapper">
+                            <a href="https://discord.com/invite/KkSpYSnHHy" class="main-btn"><img class="discord-btn" src="./assets/img/Discord-btn.png" alt="Discord server button"></a>
+                            <a href="/vote.html" class="main-btn"><img class="vote-btn" src="./assets/img/vote-btn.png" alt="Vote button"></a>
+                        </div>
+                        <div class="player-count-wrapper">
+                            <p id="player-count">There are currently <span id="active-players">11</span> players online!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="articles">
+                <div class="container">
+                    <div class="content">
+                        <div class="block-title">
+                            <h2>Latest news</h2>
+                        </div>
+                        <div class="article-wrapper">
+                            <article>
+                                <div class="content-inner">
+                                    <div class="blog-post">
+                                        <h3>Update Notes 03/10/2025 - Halloween event now live!</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                                            quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                                            dicta sunt explicabo!</p>
+                                        <div class="button-wrapper">
+                                            <a href="/post1.html"> Read more ></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-author">
+                                        <small>Posted by <span><img src="./assets/img/Admin.png" alt="admin crown icon"></span>Amr on 18:00 | 20/12/2024</small>
+                                    </div>
+                                </div>
+                                <div class="article-image-wrapper">
+                                    <img src="./assets/img/Halloween-event.png" alt="article image placeholder">
+                                </div>
+                            </article>
+                            <article>
+                                <div class="content-inner">
+                                    <div class="blog-post">
+                                        <h3>Update Notes 03/10/2025 - Halloween event now live!</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                                            quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                                            dicta sunt explicabo!</p>
+                                        <div class="button-wrapper">
+                                            <a href="/post2.html"> Read more ></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-author">
+                                        <small>Posted by <span><img src="./assets/img/Admin.png" alt="admin crown icon"></span>Amr on 18:00 | 20/12/2024</small>
+                                    </div>
+                                </div>
+                                <div class="article-image-wrapper">
+                                    <img src="./assets/img/Slayer-event.png" alt="article image placeholder">
+                                </div>
+                            </article>
+                            <article>
+                                <div class="content-inner">
+                                    <div class="blog-post">
+                                        <h3>Update Notes 03/10/2025 - Halloween event now live!</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                                            quae ab illo inventore veritatis et quasi architecto beatae vitae 
+                                            dicta sunt explicabo!</p>
+                                        <div class="button-wrapper">
+                                            <a href="/post3.html"> Read more ></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-author">
+                                        <small>Posted by <span><img src="./assets/img/Admin.png" alt="admin crown icon"></span>Amr on 18:00 | 20/12/2024</small>
+                                    </div>
+                                </div>
+                                <div class="article-image-wrapper">
+                                    <img src="./assets/img/Slayer-event.png" alt="article image placeholder">
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sidebar">
+                <div id="top-votes">
+                    <div class="content">
+                        <div class="block-title">
+                            <h2>Top 5 voters</h2>
+                        </div>
+                        <div class="vote-table-wrapper">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Amr</td>
+                                        <td>58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Amr</td>
+                                        <td>58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Amr</td>
+                                        <td>58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Amr</td>
+                                        <td>58</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Amr</td>
+                                        <td>58</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="vote-content-wrapper">
+                            <div class="vote-content">
+                                <div class="vote-reward-image">
+                                    <img class="vote-image" src="./assets/img/MysteryBoxes.png" alt="Vote image placeholder">
+                                </div>
+                                <div class="vote-text">
+                                    <small>Vote daily and earn exclusive rewards!</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="spotlight">
+                    <div class="content">
+                        <div class="block-title">
+                            <h2>Spotlight</h2>
+                        </div>
+                        <div class="slider">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slide-image-wrapper">
+                                            <img src="./assets/img/DoubleXP.png" class="slide-image" alt="Spotlight image placeholder">
+                                        </div>
+                                        <div class="slide-text">
+                                            <h3>Double XP!</h3>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                                et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-image-wrapper">
+                                            <img src="./assets/img/DoubleXP.png" class="slide-image" alt="Spotlight image placeholder">
+                                        </div>
+                                        <div class="slide-text">
+                                            <h3>Double XP!</h3>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                                et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-image-wrapper">
+                                            <img src="./assets/img/DoubleXP.png" class="slide-image" alt="Spotlight image placeholder">
+                                        </div>
+                                        <div class="slide-text">
+                                            <h3>Double XP!</h3>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                                et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-image-wrapper">
+                                            <img src="./assets/img/DoubleXP.png" class="slide-image" alt="Spotlight image placeholder">
+                                        </div>
+                                        <div class="slide-text">
+                                            <h3>Double XP!</h3>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                                et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-image-wrapper">
+                                            <img src="./assets/img/DoubleXP.png" class="slide-image" alt="Spotlight image placeholder">
+                                        </div>
+                                        <div class="slide-text">
+                                            <h3>Double XP!</h3>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+                                                et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="promos">
+                <div class="container">
+                    <div class="content">
+                        <div id="trailer">
+                            <div class="block-title">
+                                <h2>Spotlight</h2>
+                            </div>
+                            <div class="trailer-video-wrapper">
+                                <video controls poster="./assets/img/video-trailer.png">
+                                    <source src="#" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                        <div id="store">
+                            <div class="block-title">
+                                <h2>Store</h2>
+                            </div>
+                            <div class="store-image-wrapper">
+                                <a href="https://app.gpay.io/store/runite" target="_blank">
+                                    <img src="./assets/img/Store.png" alt="Store image placeholder">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>     
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>All rights Reserved © Runite</p>
+        </div>
+        <small>Website made by Martino</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="/assets/particles/particles.js"></script>
+    <script src="/assets/particles/app.js"></script>
+  </body>
+</html>
