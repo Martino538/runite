@@ -6,6 +6,8 @@ This website is the official website for a **Runescape private server**, designe
 It’s a basic **HTML/CSS/JS project** created to practice web design and improve my CSS skills.
 
 <p>
-  <img src="./assets/img/desktop.png" alt="Runite Desktop Screenshot" width="45%" style="border-radius:10px; margin-right:10px;">
-  <img src="./assets/img/mobile.png" alt="Runite Mobile Screenshot" width="30%" style="border-radius:10px;">
+  <img width="1920" height="2407" alt="desktop" src="https://github.com/user-attachments/assets/ba02bdf0-8624-4e53-b57a-02831e3cc31c" />
+  <img width="425" height="4277" alt="mobile" src="https://github.com/user-attachments/assets/fdd97e98-ed68-42a0-b9b8-be56614387f2" />
 </p>
+
+
