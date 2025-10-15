@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.querySelector('.hamburger');
   const mobileNav = document.querySelector('nav');
   const header = document.querySelector('header');
-  const topVotesMenu = document.querySelector('#topVotesMenu');
-  const spotlight = document.querySelector('#spotlightMenu');
+  const topVotesTitle = document.querySelector('#topVotesMenu .inner-content');
+  const topVotesTab = document.querySelector('#topVotesMenu');
+  const spotlightTitle = document.querySelector('#spotlightMenu .inner-content');
+  const spotlightTab = document.querySelector('#spotlightMenu');
 
   hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
@@ -11,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
     header.classList.toggle('active');
   });
 
-  topVotesMenu.addEventListener('click', () => {
-    topVotesMenu.classList.toggle('hide');
+  topVotesTitle.addEventListener('click', () => {
+    topVotesTab.classList.toggle('hide');
   });
 
-  spotlight.addEventListener('click', () => {
-    spotlight.classList.toggle('hide');
+  spotlightTitle.addEventListener('click', () => {
+    spotlightTab.classList.toggle('hide');
   });
 
 
