@@ -242,6 +242,10 @@ header.active .play-btn-wrapper {
   z-index: 4;
 }
 
+header.active .nav-wrapper {
+  z-index: 5;
+}
+
 .play-btn-wrapper .play-btn,
 .play-btn-wrapper .play-btn-hover {
   width: 300px;
