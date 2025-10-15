@@ -120,6 +120,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: var(--primary-color);
   color: var(--text-color);
   font-weight: var(--font-weight-bold);
   display: flex;
