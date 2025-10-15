@@ -994,19 +994,19 @@ td:first-child {
 
 
 /* --- Spotlight --- */
-.content.menu-option .block-title {
+.inner-content.menu-option .block-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: unset;
 }
 
-.content.menu-option .inner-content {
+.inner-content.menu-option {
   padding: var(--space-md) var(--space-lg);
   border-bottom: 1px solid var(--inset-shadow);
 }
 
-.content.menu-option h2 {
+.inner-content.menu-option h2 {
   padding: 0;
 }
 
@@ -1015,7 +1015,7 @@ td:first-child {
   padding: 0;
 }
 
-.content.menu-option {
+.inner-content.menu-option {
   cursor: pointer;
 }
 
